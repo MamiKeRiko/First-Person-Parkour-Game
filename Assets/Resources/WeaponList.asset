@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65803f945773fbd4c8261d4b09698f9e, type: 3}
+  m_Name: WeaponList
+  m_EditorClassIdentifier: 
+  list:
+  - m_name: AK74
+    m_weaponType: 0
+    m_projectilePrefab: {fileID: 0}
+    m_damage: 20
+    m_forceToApply: 500
+    m_weaponRange: 2000
+    m_baseAccuracy: 92
+    m_accuracyDropPerShot: 15
+    m_accuracyRecoveryPerSecond: 15
+    m_bulletsPerShot: 0
+    m_roundsPerSecond: 10
+    m_clipSize: 30
+    m_numberOfClips: 3
+    m_reloadTime: 1
+    m_autoReloadAfterShot: 0
+    m_drawTime: 0
+    m_crosshairTexture: {fileID: 2800000, guid: 17b8683c9c5410748be11f9fb20435af,
+      type: 3}
+    m_fireSound: {fileID: 8300000, guid: ef393c3bf087e80429557cc421b4459d, type: 3}
+    m_reloadSound: {fileID: 8300000, guid: 697be2de015886240b57b8cc9dad4588, type: 3}
+    m_shotParticles: {fileID: 5717547818497520957, guid: 05c9ce0138cf6824893c13c020ba2ca6,
+      type: 3}
+    m_projectileSpawnPoint: {fileID: 0}
+    m_shotLandingParticles: {fileID: 5717547818497520957, guid: 20fc9f8153a704b4a9d5ef42313e945a,
+      type: 3}
+  - m_name: Revolver
+    m_weaponType: 0
+    m_projectilePrefab: {fileID: 0}
+    m_damage: 0
+    m_forceToApply: 0
+    m_weaponRange: 0
+    m_baseAccuracy: 0
+    m_accuracyDropPerShot: 0
+    m_accuracyRecoveryPerSecond: 0
+    m_bulletsPerShot: 0
+    m_roundsPerSecond: 0
+    m_clipSize: 0
+    m_numberOfClips: 0
+    m_reloadTime: 0
+    m_autoReloadAfterShot: 0
+    m_drawTime: 0
+    m_crosshairTexture: {fileID: 0}
+    m_fireSound: {fileID: 0}
+    m_reloadSound: {fileID: 0}
+    m_shotParticles: {fileID: 0}
+    m_projectileSpawnPoint: {fileID: 0}
+    m_shotLandingParticles: {fileID: 0}
+  - m_name: Shotgun
+    m_weaponType: 0
+    m_projectilePrefab: {fileID: 0}
+    m_damage: 0
+    m_forceToApply: 0
+    m_weaponRange: 0
+    m_baseAccuracy: 0
+    m_accuracyDropPerShot: 0
+    m_accuracyRecoveryPerSecond: 0
+    m_bulletsPerShot: 0
+    m_roundsPerSecond: 0
+    m_clipSize: 0
+    m_numberOfClips: 0
+    m_reloadTime: 0
+    m_autoReloadAfterShot: 0
+    m_drawTime: 0
+    m_crosshairTexture: {fileID: 0}
+    m_fireSound: {fileID: 0}
+    m_reloadSound: {fileID: 0}
+    m_shotParticles: {fileID: 0}
+    m_projectileSpawnPoint: {fileID: 0}
+    m_shotLandingParticles: {fileID: 0}
+  - m_name: RocketLauncher
+    m_weaponType: 3
+    m_projectilePrefab: {fileID: 0}
+    m_damage: 0
+    m_forceToApply: 0
+    m_weaponRange: 0
+    m_baseAccuracy: 0
+    m_accuracyDropPerShot: 0
+    m_accuracyRecoveryPerSecond: 0
+    m_bulletsPerShot: 0
+    m_roundsPerSecond: 0
+    m_clipSize: 0
+    m_numberOfClips: 0
+    m_reloadTime: 0
+    m_autoReloadAfterShot: 0
+    m_drawTime: 0
+    m_crosshairTexture: {fileID: 0}
+    m_fireSound: {fileID: 0}
+    m_reloadSound: {fileID: 0}
+    m_shotParticles: {fileID: 0}
+    m_projectileSpawnPoint: {fileID: 0}
+    m_shotLandingParticles: {fileID: 0}
+  - m_name: Grenade
+    m_weaponType: 3
+    m_projectilePrefab: {fileID: 0}
+    m_damage: 0
+    m_forceToApply: 0
+    m_weaponRange: 0
+    m_baseAccuracy: 0
+    m_accuracyDropPerShot: 0
+    m_accuracyRecoveryPerSecond: 0
+    m_bulletsPerShot: 0
+    m_roundsPerSecond: 0
+    m_clipSize: 0
+    m_numberOfClips: 0
+    m_reloadTime: 0
+    m_autoReloadAfterShot: 0
+    m_drawTime: 0
+    m_crosshairTexture: {fileID: 0}
+    m_fireSound: {fileID: 0}
+    m_reloadSound: {fileID: 0}
+    m_shotParticles: {fileID: 0}
+    m_projectileSpawnPoint: {fileID: 0}
+    m_shotLandingParticles: {fileID: 0}
